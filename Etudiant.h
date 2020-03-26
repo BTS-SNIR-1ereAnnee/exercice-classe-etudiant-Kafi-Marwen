@@ -1,5 +1,6 @@
 //Marwen KAFI
 #include <string>
+#include <string>
 using namespace std;
 
 #ifndef ETUDIANT_H
@@ -8,20 +9,31 @@ using namespace std;
 class Etudiant
 {
 
-public: 
+public:
+     //CONSTRUCTEURS
+    //Constructeur par défaut
     Etudiant();
-    Etudiant (/*paramètres*/)   
-    
+    //Constructeur paramétrés
+    Etudiant(string nomEtudiant, int note1, int notes10);
+
+    /*Méthodes*/
     float calculMoyenne();
-    void setEtudiant();
-    string getEtudiant() const;
-    int getNote10() const;
-    void setNote10();
-    int getNote20() const;
-    void setNote20();
+    
+    string getNom() const;
+    
+    void setNom(string nom);
+    
+    int getNote2() const;
+    
+    void setnote2(int note2);
+ 
+    int getNote1() const;
+    
+    void setNote1(int note1);
 private:
-    string Etudiant;
-    int note20;
-    int note10;
+    string m_nomEtudiant;
+    int m_note1;
+    int m_note2;
 };
-#endif
+
+#endif // ETUDIANT_H

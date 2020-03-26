@@ -1,9 +1,12 @@
 //Marwen KAFI
+#include "Etudiant.h"
 #include <iostream>
 using namespace std;
 
 int main()
 {
-	cout << "Hello Guys\n";
+    Etudiant a;
+	cout << a.getNom()<<endl;
+	
 	return 0;
 } 
