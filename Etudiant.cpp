@@ -43,8 +43,12 @@ void Etudiant::setnote2(int note2)
 {
 
 }
-float Etudiant::calculMoyenne()
+float Etudiant::calculMoyenne(int note1, int note2)
 {
 
-	return 12.50;
+	float note;
+	note = note2*2;
+	note+= note1; 
+	note= note/2; 
+	return note;
 } 

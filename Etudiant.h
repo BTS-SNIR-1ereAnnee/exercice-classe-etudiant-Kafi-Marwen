@@ -17,7 +17,7 @@ public:
     Etudiant(string nomEtudiant, int note1, int notes10);
 
     /*Méthodes*/
-    float calculMoyenne();
+    float calculMoyenne(int note1 , int note2);
     
     string getNom() const;
     

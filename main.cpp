@@ -15,12 +15,14 @@ int main()
 	cin >> nom;
 	
 	cout<<"Saisissez la note sur 10 :"<<endl;
-	cin >> noteN1;
-	
-	cout<<"Saisissez la note sur 20 :"<<endl;
 	cin >> noteN2;
 	
+	cout<<"Saisissez la note sur 20 :"<<endl;
+	cin >> noteN1;
+	
 	cout <<a.getNom() << endl << a.getNote2() << endl <<a. getNote1() <<endl;
+	cout <<a.calculMoyenne(noteN1 , noteN2) <<endl;
+	
 	
 	return 0;
 } 
