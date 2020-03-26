@@ -20,7 +20,7 @@ int main()
 	cout<<"Saisissez la note sur 20 :"<<endl;
 	cin >> noteN2;
 	
-	
+	cout <<a.getNom() << endl << a.getNote2() << endl <<a. getNote1() <<endl;
 	
 	return 0;
 } 
