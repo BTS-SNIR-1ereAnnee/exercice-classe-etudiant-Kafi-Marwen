@@ -6,7 +6,21 @@ using namespace std;
 int main()
 {
     Etudiant a;
-	cout << a.getNom()<<endl;
+	//cout << a.getNom()<<endl;
+	
+	string nom;
+	int noteN1 , noteN2;
+	
+	cout<<"Saisissez le nom de l'élève :"<<endl;
+	cin >> nom;
+	
+	cout<<"Saisissez la note sur 10 :"<<endl;
+	cin >> noteN1;
+	
+	cout<<"Saisissez la note sur 20 :"<<endl;
+	cin >> noteN2;
+	
+	
 	
 	return 0;
 } 
